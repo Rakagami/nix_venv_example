@@ -1,6 +1,6 @@
 ## Setup explanation
 
-This repository contains a simple python package that install the command `example` that has the output `This is an Example!`
+This repository contains a simple python package that install the command `example` that has the output `This is an Example!`. The `shell.nix` builds a python application with this package and creates a shell derivation.
 
 ## To recreate this bug
 
