@@ -3,7 +3,7 @@ To recreate this bug:
 1. Clone example repository and run these commands
 
 ```
-❯ git clone [this repo] example_repo && cd example_repo
+❯ git clone git@github.com:Rakagami/nix_venv_example.git example_repo && cd example_repo
 example_repo ❯ nix-shell --pure --run "example"
 [... derivation building ...]
 This is an Example!
