@@ -36,7 +36,8 @@ This is an Example!
 example_repo ❯
 ```
 
-Now we can see that the changes we now make on the python project do not get build in the nix environment. Even if we delete `src/example.py`, nix-shell environment still successfully builds and gives the sampe output.
+Now we can see that the changes we now make on the python project do not get build in the nix environment.
+
 Expected behavior is that we see the output `This is a changed Example`
 
 Even deleting the `src/example.py` entirely doesn't do anything.
