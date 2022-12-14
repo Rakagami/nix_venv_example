@@ -1,0 +1,17 @@
+[build-system]
+requires = [
+    "setuptools",
+    "wheel"
+]
+
+[project]
+name = "example_app"
+description = "This is an example description"
+version = "0.0.0"
+
+[tool.setuptools]
+packages = ["src"]
+
+[project.scripts]
+example   = "src.example:main"
+
